@@ -14,7 +14,11 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <div class="links">
+                    <a href="{{route('client.index')}}">
+                        <i class="fa fa-file-text"> Entrar no Sistema</i>
+                    </a>
+                </div>
                 </div>
             </div>
         </div>

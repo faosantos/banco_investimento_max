@@ -41,16 +41,16 @@
                     Banco de Investimento Max
                 </div>
                 <div class="links">
-                    <a href="{{route('client.index')}}">
-                        <i class="fa fa-file-text"> Entrar no Sistema</i>
+                    <a href="#">
+                        <i class="fa fa-file-text"> Link 1</i>
                     </a>
-                    <a href="">
+                    <a href="#">
                         <i class="fa fa-youtube-play"> Link 2</i>
                     </a>
-                    <a href="">
+                    <a href="#">
                         <i class="fa fa-github"> Link 3</i>
                     </a>                   
-                    <a href="">
+                    <a href="#">
                         <i class="fa fa-info"> Link 4</i>
                     </a>
                 </div>
