@@ -34,8 +34,8 @@ class ClienteController extends Controller
     }
 
     public function edit($id) {
-        $client = Cliente::findOrFail($id);
-        return view('alter-cliente', compact('client'));
+        $client = Cliente::find($id);
+        return view('alter-cliente',['client'=>$client]);
     }
 
     public function update(Request $request, $id) {
